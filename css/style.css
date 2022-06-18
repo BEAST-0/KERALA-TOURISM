@@ -1,0 +1,106 @@
+/* carousel */
+
+.carouselmargin
+{
+ padding: 0px;
+ max-width: fit-content;
+}
+.carousel-inner
+{  
+    height: 500px;
+}
+
+
+
+
+
+/* video background */
+
+
+#background-video {
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  
+
+ 
+   @media (max-width: 750px) {
+    #background-video { display: none; }
+    body {
+      background: url("https://unsplash.com/photos/oiYkLOMFGqA/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjZ8fGtlcmFsYSUyMG5hdHVyZXxlbnwwfHx8fDE2NTU1NDk4NDY&force=true&w=640") no-repeat;
+      background-size: cover;
+    }
+}
+
+
+
+
+  /* index page font style */
+
+
+
+
+
+  .animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 100% auto;
+  color: #fff;
+  background-clip: text;
+  text-emphasis-style: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation : text clip .5s linear infinite;
+  display: inline-block;
+      font-size: 30px;
+      margin-top: .5rem;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% justify;
+  }
+}
+
+
+/* navbar */
+
+.nav {
+
+ backface-visibility: hidden;
+
+}
+
+.navbar-nav>li>a {
+  color: #F4AD33;
+  font-weight: 500;
+  text-shadow: none;
+}
+
+  /*   
+  &:hover {
+    color: #F17B16;
+  } */
+
+  .title {
+    color: #F4AD33;
+    font-weight: 500;
+    text-shadow: none;
+  }
+  
