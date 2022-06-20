@@ -1,30 +1,55 @@
-.formlogin
+/* .formlogin
 {
 
-    position: absolute;  
     top: 120px;
     right: 440px;
     bottom: 0px;
+    position: relative;
     color:oldlace;
-    box-sizing: border-box;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
 
+} */
+
+
+
+form{
+
+  /*color: black;*/
+  /* border: 1px solid red; */
+  /*padding: 10px;*/
+  /*margin-right: 50px;*/
+  /*background-color: beige;*/
+  /*height: 250px;*/
+  /*margin-top: 50px;*/
+  /*width: 200px;*/
+  color:oldlace;
+  background-color: 40% transparent;
+  color: rgb(255, 255, 255);
+  font-size:large;
+  position: relative;
+  /*height: 400px;*/
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  border: 3px solid rgb(0, 247, 123);
+  padding: 10px;
 }
 
-.bgimg
+
+
+#background-image
 {
     padding: 0rem;
     margin: 1em auto;
-    height: 675px;
-    width: 600px;
+    height: 100%;
+    width: 100%;
     margin-top: -1px;
-    display: flex;
+    display: none;
     justify-content: center;
-}
-
-img, object
-{
-    max-height:auto;
-    max-width: auto;
 }
 
 
